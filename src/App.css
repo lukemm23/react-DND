@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 40px;
+  background-color: steelblue;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  
+}
+
+.item-container {
+  width: 40%;
+  
+}
+
+.card-container {
+  margin-top: 80px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  background-color: steelblue;
+}
+
+.target {
+  width: 50%;
+  min-height: 200px;
+  border: 1px solid grey;
+}
